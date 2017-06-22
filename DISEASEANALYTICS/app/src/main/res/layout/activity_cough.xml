@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cough"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sravani164.diseaseanalytics.Cough">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cough"
+                android:textStyle="bold"
+                android:textSize="50px"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Possible Diseases : "
+                android:textStyle="bold"
+                android:layout_marginTop="19dp"
+                android:textSize="20dp"            />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "Postnasal drip"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="70dp"
+                android:textSize="17dp"   />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "Asthma"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="70dp"
+                android:textSize="17dp"   />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "Gastroesophageal reflux disease"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="70dp"
+                android:textSize="17dp"   />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "Infections"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="70dp"
+                android:textSize="17dp"   />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "Blood pressure drugs"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="70dp"
+                android:textSize="17dp"   />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "Chronic bronchitis"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="70dp"
+                android:textSize="17dp"   />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

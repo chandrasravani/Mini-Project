@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_influenza"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/back"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sravani164.diseaseanalytics.Influenza">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Influenza"
+                android:textStyle="bold"
+                android:textSize="50px"
+               android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cause:"
+                android:textStyle="bold"
+                android:textSize="40px"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="14dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t1"
+                android:text="(i) Direct contact with the hands of an infected person (e.g., shaking hands, holding hands)."
+                android:layout_marginTop="14dp"
+                android:textSize="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(ii) Breathing in droplets containing influenza virus that have been coughed or sneezed into the air by an infected person."
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(iii) Contact with an object contaminated with the influenza virus (e.g., toys, furniture, doorknob, taps, computer keyboard, telephone, shopping cart handle)."
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_alignParentStart="true" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms:"
+                android:textStyle="bold"
+                android:textSize="40px"
+                android:id="@+id/symptom"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/s1"
+                android:text="(i) Fever."
+                android:layout_marginTop="11dp"
+                android:textSize="16dp"
+                android:paddingTop="15px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="(ii) Cough, sneezing, runny nose"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(iii) Headache."
+                android:textSize="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="(iv) Body aches and pain."
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(v) Exhaustion."
+                android:textSize="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(vi) Sore throat."
+                android:textSize="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(vi) Nausea, vomiting, and diarrhea are more common in children than adults."
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_alignParentStart="true" />
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Minf"
+                android:text="medicine"
+                android:id="@+id/button"
+                android:layout_marginTop="21dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

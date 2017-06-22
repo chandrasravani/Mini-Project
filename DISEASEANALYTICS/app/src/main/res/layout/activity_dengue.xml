@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dengue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/back"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sravani164.diseaseanalytics.Dengue">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dengue"
+                android:textStyle="bold"
+                android:textSize="50px"
+              android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cause:"
+                android:textStyle="bold"
+                android:textSize="40px"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="14dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(i) Dengue fever is caused by any one of four dengue viruses spread by mosquitoes that thrive in and near human lodging."
+                android:id="@+id/t1"
+                android:textSize="16dp"
+                android:layout_marginTop="14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="(ii) When a mosquito bites a person infected with a dengue virus, the virusenters the mosquito."
+                android:id="@+id/t2"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(iii) When the infected mosquito then bites another person, the virus enters that person's bloodstream."
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms:"
+                android:textStyle="bold"
+                android:textSize="40px"
+                android:id="@+id/symptom"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/s1"
+                android:text="(i) Sudden high fever."
+                android:layout_marginTop="11dp"
+                android:textSize="16dp"
+                android:paddingTop="15px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(ii) Severe headaches."
+                android:textSize="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(iii) Pain behind the eyes."
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(iv) Severe joint and muscle pain."
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(v) Fatigue."
+                android:textSize="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(vi) severe joint and muscle pain."
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(vii) Nausea."
+                android:textSize="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(viii) Vomiting."
+                android:textSize="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(ix) Skin rash, which appears two to five days after the onset of fever."
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_alignParentStart="true" />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Mden"
+                android:text="medicine"
+                android:id="@+id/button"
+                android:layout_marginTop="21dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

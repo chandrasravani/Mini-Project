@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gastritis"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/back"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sravani164.diseaseanalytics.Gastritis">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gastrisis"
+                android:textStyle="bold"
+                android:textSize="50px"
+              android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cause:"
+                android:textStyle="bold"
+                android:textSize="40px"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="14dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t1"
+                android:text="(i) Gastrisis is associated with various medications, medical and surgical conditions, physical stresses, social habits,chemicals,and infections."
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t2"
+                android:textSize="16dp"
+                android:text="(ii) Swallowing chemical or objects."
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(iii) People who are critically ill or injured can be effected by gastrisis."
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Symptoms:"
+                android:textStyle="bold"
+                android:textSize="40px"
+                android:id="@+id/symptom"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="13dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/s1"
+                android:text="(i) The pain is usually in the upper central portion of the abdomen."
+                android:layout_marginTop="6dp"
+                android:textSize="16dp"
+                android:paddingTop="15px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(ii) Sometimes gastrisis pain occur in the left upper portion of the abdomen and in the back.The pain seems to go right straight through."
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(iii) People often use the terms burning,aching,grawing, or soreness to describe the pain."
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(iv) Usually, a vague sense of discomfort is present, but the pain may be sharp,stabbing or cutting."
+                android:layout_alignParentLeft="true"
+                android:textSize="16dp"
+                android:layout_alignParentStart="true" />
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Mgas"
+                android:text="medicine"
+                android:id="@+id/button"
+                android:layout_marginTop="21dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

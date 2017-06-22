@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sravani164.diseaseanalytics">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/plus"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Health_Tips"
+            android:label="@string/title_activity_health__tips"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".Register2" />
+        <activity android:name=".Forget" />
+        <activity android:name=".Home" />
+        <activity android:name=".Disease" />
+        <activity android:name=".Aids" />
+        <activity android:name=".Food_Tips" />
+        <activity android:name=".Weight_Tips" />
+        <activity android:name=".Vitamin_Tips" />
+        <activity android:name=".Psychological_Tips" />
+        <activity android:name=".Croup" />
+        <activity android:name=".Escherichia_Coli" />
+        <activity android:name=".ChickenPox" />
+        <activity android:name=".ColdSores" />
+        <activity android:name=".Loss" />
+        <activity android:name=".Gain" />
+        <activity android:name=".Allergy" />
+        <activity android:name=".Cancer" />
+        <activity android:name=".Cholera" />
+        <activity android:name=".Asthma" />
+        <activity android:name=".Cold" />
+        <activity android:name=".CoronaryHeartDisease" />
+        <activity android:name=".Dengue" />
+        <activity android:name=".Diabetes" />
+        <activity android:name=".Fever" />
+        <activity android:name=".GallStones" />
+        <activity android:name=".Gastritis" />
+        <activity android:name=".Hepatitis" />
+        <activity android:name=".HayFever" />
+        <activity android:name=".HeadLice" />
+        <activity android:name=".Hydrophobia" />
+        <activity android:name=".Hypertension" />
+        <activity android:name=".Impetigo" />
+        <activity android:name=".Influenza" />
+        <activity android:name=".Jaundice" />
+        <activity android:name=".KidneyStones" />
+        <activity android:name=".Malaria" />
+        <activity android:name=".Mumps" />
+        <activity android:name=".NasalPolyps" />
+        <activity android:name=".Norovirus" />
+        <activity android:name=".Osteoporosis" />
+        <activity android:name=".Piles" />
+        <activity android:name=".PinkEye" />
+        <activity android:name=".Rubella" />
+        <activity android:name=".Typhoid" />
+        <activity android:name=".WhoopingCough" />
+        <activity android:name=".Symptoms" />
+        <activity android:name=".AbdominalPain" />
+        <activity android:name=".Cough" />
+        <activity android:name=".Fatigue" />
+        <activity android:name=".Confusion" />
+        <activity android:name=".Dizziness" />
+        <activity android:name=".HairLoss" />
+        <activity android:name=".Headache" />
+        <activity android:name=".Infection" />
+        <activity android:name=".Itch" />
+        <activity android:name=".Nausea" />
+        <activity android:name=".Allergy_Medicine" />
+        <activity android:name=".Aids_Medicine" />
+        <activity android:name=".Asthma_Medicine" />
+        <activity android:name=".Cancer_Medicine" />
+        <activity android:name=".Cholera_Medicine" />
+        <activity android:name=".Cold_Medicine" />
+        <activity android:name=".Coronary_Medicine" />
+        <activity android:name=".Dengue_Medicine" />
+        <activity android:name=".Diabetes_Medicine" />
+        <activity android:name=".Fever_Medicine" />
+        <activity android:name=".GallStones_Medicine" />
+        <activity android:name=".Gastritis_Medicine" />
+        <activity android:name=".ChickenPox_Medicine" />
+        <activity android:name=".HayFever_Medicine" />
+        <activity android:name=".Croup_Medicine" />
+        <activity android:name=".ShortnessOfBreath" />
+        <activity android:name=".SoreThroat" />
+        <activity android:name=".Swelling" />
+        <activity android:name=".Vomiting" />
+        <activity android:name=".WeightGain" />
+        <activity android:name=".Escherichia_Coli_Medicine" />
+        <activity android:name=".HeadLice_Medicine" />
+        <activity android:name=".Hapatitis_Medicine" />
+        <activity android:name=".Hepatitis_Medicine" />
+        <activity android:name=".Hypertension_Medicine" />
+        <activity android:name=".Impetigo_Medicine" />
+        <activity android:name=".Influenza_Medicine" />
+        <activity android:name=".KidneyStones_Medicine" />
+        <activity android:name=".Malaria_Medicine" />
+        <activity android:name=".Mumps_Medicine" />
+        <activity android:name=".NasalPolyps_Medicine" />
+        <activity android:name=".Norovirus_Medicine" />
+        <activity android:name=".Osteoporosis_Medicine" />
+        <activity android:name=".Piles_Medicine" />
+        <activity android:name=".PinkEye_Medicine" />
+        <activity android:name=".Rubella_Medicine" />
+        <activity android:name=".Typhoid_Medicine" />
+        <activity android:name=".WhoopingCough_Medicine" />
+        <activity android:name=".ColdSores_Medicine"></activity>
+    </application>
+
+</manifest>

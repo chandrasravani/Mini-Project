@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hypertension"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/back"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sravani164.diseaseanalytics.Hypertension">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hypertension"
+            android:textStyle="bold"
+            android:textSize="50px"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cause:"
+            android:textStyle="bold"
+            android:textSize="40px"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="14dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/t1"
+            android:textSize="16dp"
+            android:text="(i) Deposition of cholesterol (a kind of fat) in the walls of coronary arteries which restrict the flow of blood to the heart muscles. This leads to heart attack.."
+            android:layout_marginTop="14dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(ii) Due to reduced blood supply, oxygen available to the muscles, heart’s efficiency is affected."
+            android:layout_alignParentLeft="true"
+            android:textSize="16dp"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(iii) Due to stress and strain."
+            android:layout_alignParentLeft="true"
+            android:textSize="16dp"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="(iv) Obesity (over weight)."
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Symptoms:"
+            android:textStyle="bold"
+            android:textSize="40px"
+            android:id="@+id/symptom"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/s1"
+            android:textSize="16dp"
+            android:text="(i) Persistent high blood pressure (BP)"
+            android:layout_marginTop="11dp"
+            android:paddingTop="15px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(ii) It may damage the arteries of kidney."
+            android:textSize="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(iii) In extreme cases the arteries may burst or blindness may be caused."
+            android:layout_alignParentLeft="true"
+            android:textSize="16dp"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(iv) It may also cause paralysis."
+            android:textSize="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Mhyp"
+            android:text="medicine"
+            android:id="@+id/button"
+            android:layout_marginTop="21dp"
+            />
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
